@@ -1,26 +1,32 @@
-const Pessoa = require('./Pessoa');
-// class Estudante{
-//   constructor(idEstudante, nomeEstudante, idEscola) {
-//     this.id = idEstudante;
-//     this.nome = nomeEstudante;
-//     this.id = idEscola;
-//   }
-// }
+// const Pessoa = require('./Pessoa');
+class Estudante{
+  idEstudante;
+  nome;
+  serie;
+  escola;
 
-class Estudante extends Pessoa {
-  #cpf;
-  
-    
-  constructor (id, cpf, nome, serie, escola) {
-    super(nome, cpf, email, id);
-    
-    this.id = id;
-    this.#cpf = cpf;
+  constructor(idEstudante, nome, serie, escola) {
+    this.id = idEstudante;
     this.nome = nome;
     this.serie = serie;
     this.escola = escola;
   }
-}  
+}
+
+// class Estudante extends Pessoa {
+//   #cpf;
+  
+    
+//   constructor (id, cpf, nome, serie, escola) {
+//     super(nome, cpf, email, id);
+    
+//     this.id = id;
+//     this.#cpf = cpf;
+//     this.nome = nome;
+//     this.serie = serie;
+//     this.escola = escola;
+//   }
+// }  
 
 registrarEstudante(idEstudante, nomeEstudante) {
   if (estudante instanceof Estudante) {

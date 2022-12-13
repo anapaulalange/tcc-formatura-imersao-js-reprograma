@@ -9,7 +9,7 @@ describe("Teste da classe Estudante", () => {
   test("cadastrar Padrinho com dados válidos", () => {
     const padrinho = new Padrinho();
     const account = new Account();
-    expect(padrinho.registroPadrinho("Ana", "1234567908", account, 4000)).toBe("Padrinho cadastrado");
+    expect(padrinho.registrarEstudante("Ana", "1234567908", account, 4000)).toBe("Padrinho cadastrado");
   });
 
   test("cadastrar padrinho com dados inválidos", () => {
