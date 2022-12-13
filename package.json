@@ -1,0 +1,18 @@
+{
+  "name": "on21-imersao-js-s12-projeto-final",
+  "version": "1.0.0",
+  "description": "// Padrinho\r //   - atributos \r   //   - nome\r   //   - email -> privado\r   //   - telefone -> privado\r   //   - presente\r   //  - metodos\r   //    - registrar um padrinho\r   //    - vincular uma criança",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^11.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
