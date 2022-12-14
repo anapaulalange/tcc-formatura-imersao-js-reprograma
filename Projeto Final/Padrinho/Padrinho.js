@@ -1,25 +1,11 @@
-// const database = require("./database.json");
+const Pessoa = require('./Pessoa');
 const readline = require("readline-sync");
-
-// class Padrinho{
-//   estudanteVinculado;
-//   idEstudante = returnIdEstudante();
-//   livro = doarLivro();
-//   nome;
-//   email;
-//   telefone;
-
-//   constructor(nome, sobrenome, email, telefone){
-//     this.nome = nome;
-//     this.sobrenome = sobrenome;
-//     this.email = email;
-//     this.telefone = telefone;
-//   }
-// }
 
 class Padrinho extends Pessoa {
   #cpf;
   estudanteVinculado;
+  idEstudante = returnIdEstudante();
+  livro = doarLivro();
     
   constructor (id, cpf, nome, email, telefone) {
     super(nome, cpf, email, id);
