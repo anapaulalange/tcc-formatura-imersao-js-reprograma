@@ -2,7 +2,10 @@ const Pessoa = require('./Pessoa');
 const readline = require("readline-sync");
 
 class Padrinho extends Pessoa {
+  id;
   #cpf;
+  nome;
+  email;
   estudanteVinculado;
   idEstudante = returnIdEstudante();
   livro = doarLivro();

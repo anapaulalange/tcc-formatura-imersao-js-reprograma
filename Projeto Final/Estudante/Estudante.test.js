@@ -8,11 +8,11 @@ describe("Teste da classe Estudante", () => {
 
   test("cadastrar estudante com dados válidos", () => {
     const estudante = new Estudante();
-    expect(estudante.registrarEstudante("Ana", "1234567908", account, 4000)).toBe("Estudante cadastrado");
+    expect(estudante.registrarEstudante('Ana', '1234567908', 'anapaula.lange@gmail.com', '123')).toBe("Estudante cadastrado");
   });
 
   test("cadastrar estudante com dados inválidos", () => {
     const estudante = new Estudante();
-    expect(() => estudante.registrarEstudante("Ana", "1234567908", "não conta", 5000)).toThrow("Erro no cadastro, dados inválidos");
+    expect(() => estudante.registrarEstudante('1', 'asda', 'asda', 'asda')).toThrow("Erro no cadastro, dados inválidos");
   });
 });
