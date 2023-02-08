@@ -2,12 +2,12 @@ const Pessoa = require('./Pessoa');
 
 class Estudante extends Pessoa{
   #cpf
-  idEstudante;
+  id;
   nome;
   serie;
   escola;
 
-  constructor(idEstudante, nome, serie, escola) {
+  constructor(cpf, idEstudante, nome, serie, escola) {
     super(nome, cpf, email, id);
     this.#cpf = cpf;
     this.id = idEstudante;

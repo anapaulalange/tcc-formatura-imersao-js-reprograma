@@ -8,7 +8,6 @@ class Doacao {
       this.autor = autor;
       this.genero = genero;
     }
-  
   }
   
 module.exports = Doacao;
