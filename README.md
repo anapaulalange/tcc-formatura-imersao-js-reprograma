@@ -20,30 +20,30 @@ No dia da doação é realizado um evento na escola com os estudantes envolvidos
 
 Padrinho :family:
 - atributos 
-  - id
-  - nome
-  - email 
-  - telefone 
-  - presente
+  - `id`
+  - `nome`
+  - `email`
+  - `telefone`
+  - `presente`
  - metodos
    - registrar um padrinho
    - vincular uma criança
 
 Escola :school_satchel:
 - atributos 
-  - id
-  - lista de alunos 
-  - lista de séries
+  - `id`
+  - `lista de alunos` 
+  - `lista de séries`
  - metodos
       - registrar uma escola
       - vincular uma série escolar
 
 Estudante :girl::boy:
 - atributos 
-  - id
-  - nome
-  - série
-  - escola
+  - `id`
+  - `nome`
+  - `série`
+  - `escola`
  - metodos
       - registrar uma criança
       - vincular a uma série escolar e um padrinho
